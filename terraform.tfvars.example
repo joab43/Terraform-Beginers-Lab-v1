@@ -1,0 +1,3 @@
+proyecto  = "tienda"
+entorno   = "dev"
+servicios = ["api", "web"]

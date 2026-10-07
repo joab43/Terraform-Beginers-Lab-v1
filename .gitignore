@@ -1,0 +1,21 @@
+# Terraform y sus archivos de trabajo
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Variables locales (el ejemplo sí se comparte)
+terraform.tfvars
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Archivos creados por el laboratorio
+/resumen-*.txt
+/servicio-*.txt
+
+# Archivos temporales del editor
+*.swp
+*.swo
+*~
